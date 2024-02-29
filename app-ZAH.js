@@ -2,6 +2,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const resultDiv = document.getElementById('result');
 
+    // Comentario de Prueba
+
     // Comprobar si el navegador admite la API de reconocimiento de voz
     if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
